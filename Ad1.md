@@ -49,3 +49,6 @@ Konsola - proces tworzenia repozytrium.
 
 
 -- Repozytrium lokalne FibCalc, repozytrium utworzone z gh, pierwszy commit - Przesłanie pierwszych plików.
+
+
+gh repo list | grep FibCalc  <-- Weryfikacja repozytrium na zwróconej liście repozytoriów.
