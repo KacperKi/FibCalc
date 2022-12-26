@@ -7,8 +7,9 @@ Zbudowanie obrazu na bazie utworzonego Dockerfile
 ** docker build -t fibcalc -f Dockerfile . **
 
 Uruchomienie kontenera na bazie utworzonego obrazu
-** docker run -d --name fibcalc_app -p 80:80 fibcalc **
-
+```
+docker run -d --name fibcalc_app -p 80:80 fibcalc
+```
 Zgodnie ze zmodyfikowanym plikiem main.py w folderze /app. 
 
 Wynik n-tego ciągu uzyskamy poprzez odwołanie http://localhost/{numer_n_ciagu}
