@@ -4,8 +4,9 @@ wymagane komponenty z wersjami do jej funkcjonowania.
 Do uruchomienia korzystam z platformy do interfejsuów api w pythonie - FastAPI.
 
 Zbudowanie obrazu na bazie utworzonego Dockerfile
-** docker build -t fibcalc -f Dockerfile . **
-
+```
+docker build -t fibcalc -f Dockerfile .
+```
 Uruchomienie kontenera na bazie utworzonego obrazu
 ```
 docker run -d --name fibcalc_app -p 80:80 fibcalc
