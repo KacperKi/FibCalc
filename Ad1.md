@@ -1,4 +1,5 @@
-Program napisany w Pythonie.
+## Punkt 1
+Program napisany w Pythonie - plik do zadania nr. 1 - main.py.
 Zwraca n-ty element ciągu Fibonnaciego w postaci stringu wynik + dane autora.
 
 ### Komendy do utworzenia repozytrium - operacje na windows (przedrostek winpty w git bashu)

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Kacper Kisielewski Gr.2.2</h1><p>Calculate n-element of Fibo!</p>
+        Wpisz n: <input type="number" id="n" name="n" value="1"><br>
+        <button onclick="fib()"> Calculate! </button>
+        <script>
+            function fib(){
+                var n = document.getElementById("n").value;
+                if(isNaN(n) || n<=0 || Number.isInteger(n)){alert("Błędne dane wejściowe!")}
+                else{
+                    var result = 0;
+                    if(n==0) result=0;
+                    if(n==1) result=1;
+                    if(n>1){
+                        var f1=0;var f2=1;
+                        var s;var i=0;
+                        for(i=1;i<n;i++){s=f1+f2;f1=f2;f2=s;}
+                        result=f2;
+                    }
+                    alert("Kacper Kisielewski Gr. 2 - Wynik = " + result);
+                }
+            }
+        </script>
+    </body>
+</html>
