@@ -62,8 +62,8 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          cache-from: type=registry,ref=docker.io/kacperki/fibcalc-cache
-          cache-to: type=registry,ref=docker.io/kacperki/fibcalc-cache
+          cache-from: type=registry,ref=docker.io/kacperxawer/fibcalc-cache
+          cache-to: type=registry,ref=docker.io/kacperxawer/fibcalc-cache
           platforms: linux/amd64,linux/arm64
           context: .
           push: true
