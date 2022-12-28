@@ -1,0 +1,9 @@
+FROM alpine:3.5
+
+WORKDIR /opt
+
+COPY fib.sh .
+
+RUN chmod +x fib.sh
+
+CMD ["sh", "fib.sh"]
