@@ -43,3 +43,7 @@ gh repo list | grep FibCalc  <-- Weryfikacja repozytrium na zwróconej liście r
 ? What should the new remote be called? origin
 ✓ Added remote git@github.com:KacperKi/FibCalc.git
 ```
+
+###
+
+[Czytaj dalej      Punkt nr. 2](https://github.com/KacperKi/FibCalc/blob/main/Ad2.md)
