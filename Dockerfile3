@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM 3.16.3
 
 WORKDIR /opt
 
