@@ -65,7 +65,7 @@ jobs:
           cache-from: type=registry,ref=docker.io/kacperki/fibcalc-cache
           cache-to: type=registry,ref=docker.io/kacperki/fibcalc-cache
           platforms: linux/amd64,linux/arm64
-          context: ./
+          context: .
           push: true
           file: Dockerfile3
           tags: ${{steps.meta.outputs.tags}}
