@@ -24,6 +24,7 @@ Zgodnie z [dołączonym do zadania materiałem](https://semver.org/lang/pl/), u�
 ```
 runs-on: ubuntu-20.04
 ```
+
 2. Silnik buildkit
 ```
  - 
@@ -31,6 +32,7 @@ runs-on: ubuntu-20.04
         id: buildx
         uses: docker/setup-buildx-action@v2
 ```
+
 3. Umożliwienie uruchomienia aplikacji na Intel 64 oraz Apple M1
 ```
 platforms: linux/amd64,linux/arm64
@@ -40,6 +42,7 @@ platforms: linux/amd64,linux/arm64
 ```
 file: ./Dockerfile3
 ```
+
 4. Zbudowane obrazy przesyłam na publiczne repozytrium github.
 ```
  name: Docker meta
@@ -48,12 +51,8 @@ file: ./Dockerfile3
         with:
           images: |
             ghcr.io/kacperki/fibcalc
-          tags: |
-            type=ref,event=branch
-            type=ref,event=pr
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
 ```
+
 5. Logowanie poprzez token
 > Do githuba: 
 ```
@@ -64,6 +63,7 @@ file: ./Dockerfile3
           username: ${{secrets.GH_USERNAME}}
           password: ${{secrets.GH_TOKEN}}
 ```
+
 > Do Dockerhuba:
 ```
         name: Login to DockerHub
@@ -73,8 +73,28 @@ file: ./Dockerfile3
           password: ${{secrets.DH_TOKEN}}
 ```
 
-T
+6. Tryb registry cache, docelowe repozytorium docker hub - fibcalc-cache.
+```
+        cache-from: type=registry,ref=docker.io/kacperxawer/fibcalc-cache
+        cache-to: type=registry,ref=docker.io/kacperxawer/fibcalc-cache
+```
 
-
-
+7. Semver - wersjonowanie 
+```
+tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+```
+##
 [Czytaj dalej punkt 4](https://github.com/KacperKi/FibCalc/blob/main/Ad4.md)
+[Dodatki](https://thedatabaseme.de/2022/07/02/building-and-pushing-use-github-actions-to-build-and-push-docker-images/)
+
+
+> MENU
+*  [Wstęp do zadania](https://github.com/KacperKi/FibCalc/blob/main/Informacje%20wstepne.md)
+*  [Idź do opisu zad 1 - Ad1.md](https://github.com/KacperKi/FibCalc/blob/main/Ad1.md).
+*  [Idź do opisu zad 2 - Ad2.md](https://github.com/KacperKi/FibCalc/blob/main/Ad2.md).
+*  [Idź do opisu zad 3 - Ad3.md](https://github.com/KacperKi/FibCalc/blob/main/Ad3.md).
+*  [Idź do opisu zad 4 - Ad4.md](https://github.com/KacperKi/FibCalc/blob/main/Ad4.md).

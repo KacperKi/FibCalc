@@ -47,3 +47,11 @@ gh repo list | grep FibCalc  <-- Weryfikacja repozytrium na zwróconej liście r
 ###
 
 [Czytaj dalej      Punkt nr. 2](https://github.com/KacperKi/FibCalc/blob/main/Ad2.md)
+
+
+> MENU
+*  [Wstęp do zadania](https://github.com/KacperKi/FibCalc/blob/main/Informacje%20wstepne.md)
+*  [Idź do opisu zad 1 - Ad1.md](https://github.com/KacperKi/FibCalc/blob/main/Ad1.md).
+*  [Idź do opisu zad 2 - Ad2.md](https://github.com/KacperKi/FibCalc/blob/main/Ad2.md).
+*  [Idź do opisu zad 3 - Ad3.md](https://github.com/KacperKi/FibCalc/blob/main/Ad3.md).
+*  [Idź do opisu zad 4 - Ad4.md](https://github.com/KacperKi/FibCalc/blob/main/Ad4.md).

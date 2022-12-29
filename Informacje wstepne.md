@@ -13,3 +13,13 @@ Zadanie składa się z 4 etapów, których każdy etap opisuje unikatowy plik w 
 Tematyką programu jest ciąg Fibonnaciego.
 > Dla podanego elementu - wyliaczam wartość ciągu. 
 > Dodatkowo prezentuję dane autora oraz jego grupę studencką.
+
+[Czytaj dalej - pkt. 1](https://github.com/KacperKi/FibCalc/blob/main/Ad1.md)
+
+
+> MENU
+*  [Wstęp do zadania](https://github.com/KacperKi/FibCalc/blob/main/Informacje%20wstepne.md)
+*  [Idź do opisu zad 1 - Ad1.md](https://github.com/KacperKi/FibCalc/blob/main/Ad1.md).
+*  [Idź do opisu zad 2 - Ad2.md](https://github.com/KacperKi/FibCalc/blob/main/Ad2.md).
+*  [Idź do opisu zad 3 - Ad3.md](https://github.com/KacperKi/FibCalc/blob/main/Ad3.md).
+*  [Idź do opisu zad 4 - Ad4.md](https://github.com/KacperKi/FibCalc/blob/main/Ad4.md).

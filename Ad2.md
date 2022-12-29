@@ -62,3 +62,21 @@ winpty docker run -it --rm --name alpine_fibcalc alpine_fibcalc
 Najmniejszy rozmiar obrazu jaki zdołałem uzyskać to obraz z użyciem Alpine w wersji 3.5, dodatkowo został utworzony skrypt fib.sh, który w pętli - po uruchomieniu kontenera,
 pobiera w nieskończoność liczbę - oznaczającą n-ty element ciągu Fibonacciego.
 > Poprzednie wersje pozostawiam w ramach prezentacji metod wdrożenia skryptu.
+
+
+
+### Rozwiązanie nr. 5 
+> W ramach rozrywki, przeszukałem dockerhub-a pod względem rozwiązań "czysto programowych"- najlżejszym rozmiarem wykazał się obraz busybox w stosunkowo starej wersji,
+wspierającej wyłącznie platformę amd64.
+> Pliki wchodządze do rozwiązania - skrypt fib.sh oraz Dockerfile4.
+[Link do Busybox-a](https://hub.docker.com/layers/library/busybox/1.25-uclibc/images/sha256-e02e811dd08fd49e7f6032625495118e63f597eb150403d02e3238af1df240ba?context=explore)
+
+##
+
+
+> MENU
+*  [Wstęp do zadania](https://github.com/KacperKi/FibCalc/blob/main/Informacje%20wstepne.md)
+*  [Idź do opisu zad 1 - Ad1.md](https://github.com/KacperKi/FibCalc/blob/main/Ad1.md).
+*  [Idź do opisu zad 2 - Ad2.md](https://github.com/KacperKi/FibCalc/blob/main/Ad2.md).
+*  [Idź do opisu zad 3 - Ad3.md](https://github.com/KacperKi/FibCalc/blob/main/Ad3.md).
+*  [Idź do opisu zad 4 - Ad4.md](https://github.com/KacperKi/FibCalc/blob/main/Ad4.md).

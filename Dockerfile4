@@ -1,0 +1,9 @@
+FROM busybox:1.25.1-uclibc
+
+WORKDIR /opt
+
+COPY fib.sh .
+
+RUN chmod +x fib.sh
+
+CMD ["sh", "fib.sh"]
