@@ -2,7 +2,7 @@
 re="^[0-9]+$"
 while true
 do
-    echo "Podaj n: "
+    echo " Podaj n: "
     read n
     if [ $n -lt 0 ] ; then
       echo "Bledna wartosc";  
