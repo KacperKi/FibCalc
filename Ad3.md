@@ -8,3 +8,4 @@ W celu udzielenia dostępu do docker.io - podczas budowania obrazu, generuję no
 > [Strona tworząca token dla registry](https://github.com/settings/tokens)
 
 [Pomocnik do platformy M1](https://plainenglish.io/blog/which-docker-images-can-you-use-on-the-mac-m1-daba6bbc2dc5)
+d
