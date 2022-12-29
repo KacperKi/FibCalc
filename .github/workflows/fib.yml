@@ -56,7 +56,7 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
 
-    #Zbudowanie obrazu i wypchanie na Dockerhub-a       
+    #Zbudowanie obrazu i wypchanie 
       - 
         name: Build and push
         id: docker_build
